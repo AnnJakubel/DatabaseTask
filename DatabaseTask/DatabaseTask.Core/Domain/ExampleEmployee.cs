@@ -3,7 +3,7 @@
 
 namespace DatabaseTask.Core.Domain
 {
-    public class Employee
+    public class ExampleEmployee
     {
         [Key]
         public Guid Id { get; set; }
