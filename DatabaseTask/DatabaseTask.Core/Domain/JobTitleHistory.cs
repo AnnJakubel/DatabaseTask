@@ -5,9 +5,9 @@ namespace DatabaseTask.Core.Domain
     public class JobTitleHistory
     {
         [Key]
-        public Guid TitleHistoryId { get; set; }
+        public Guid JobTitleHistoryId { get; set; }
 
-        public List<string> JobTitles { get; set; }
+        public string CurrentJobTitle { get; set; }
 
         public JobTitleList JobTitleList { get; set; }
 
