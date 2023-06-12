@@ -24,9 +24,9 @@ namespace DatabaseTask.Core.Domain
 
         public string BankAccount { get; set; }
 
-        public DateTime ContractStartDate { get; set; }
+        public DateOnly ContractStartDate { get; set; }
 
-        public DateTime? ContractEndingDate { get; set; }
+        public DateOnly? ContractEndingDate { get; set; }
 
 
 

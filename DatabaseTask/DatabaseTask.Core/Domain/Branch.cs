@@ -1,7 +1,10 @@
-﻿namespace DatabaseTask.Core.Domain
+﻿using System.ComponentModel.DataAnnotations;
+
+namespace DatabaseTask.Core.Domain
 {
     public class Branch
     {
+        [Key]
         public Guid BranchId { get; set; }
 
         public String Name { get; set; }

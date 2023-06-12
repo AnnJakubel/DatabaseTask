@@ -18,8 +18,8 @@ namespace DatabaseTask.Core.Domain
 
         public int VacationDurationInDays { get; set; }
 
-        public DateTime VacationStartDate { get; set; }
+        public DateOnly VacationStartDate { get; set; }
 
-        public DateTime VacationEndDate { get; set; }
+        public DateOnly VacationEndDate { get; set; }
     }
 }
