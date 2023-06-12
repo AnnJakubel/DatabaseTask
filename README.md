@@ -1,2 +1,3 @@
-# DatabaseTask
-![image](https://github.com/AnnJakubel/DatabaseTask/assets/102805150/0299f52c-3c83-4462-9426-cda08df1c4bf)
+# DatabaseTask ERD from Microsoft SQL Server Management Studio 
+![image](https://github.com/AnnJakubel/DatabaseTask/assets/102805150/413cf301-a595-4649-9877-dc5d0b894b86)
+
