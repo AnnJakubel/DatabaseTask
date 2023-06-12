@@ -17,7 +17,7 @@ namespace DatabaseTask.Data
         public DbSet<EmployeeChildrenConnection> EmployeeChildrenConnections { get; set; }
         public DbSet<Hint> Hints { get; set; }
         public DbSet<JobTitleHistory> JobTitleHistories { get; set; }
-        public DbSet<JobTitleList> JobTitleList { get; set; }
+        public DbSet<JobTitle> JobTitles { get; set; }
         public DbSet<Permissions> Permissions { get; set; }
         public DbSet<PhysicalEvaluation> PhysicalEvaluations { get; set; }
         public DbSet<Rental> Rentals { get; set; }

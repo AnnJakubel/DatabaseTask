@@ -15,7 +15,7 @@ namespace DatabaseTask.Core.Domain
 
         // FK
         public Employee EmployeeAsParent { get; set; }
-        public Guid EmployeeId { get; set }
+        public Guid EmployeeId { get; set; }
 
         public List<Child> Children { get; set; }
     }
