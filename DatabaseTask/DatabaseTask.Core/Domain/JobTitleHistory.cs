@@ -7,13 +7,13 @@ namespace DatabaseTask.Core.Domain
         [Key]
         public Guid JobTitleHistoryId { get; set; }
 
-        public string CurrentJobTitle { get; set; }
+        public String CurrentJobTitle { get; set; }
 
         public JobTitleList JobTitleList { get; set; }
 
         public DateTime JobTitleStartDate { get; set; }
 
-        public DateTime JobTitleDuration { get; set;}
+        public int JobTitleDurationInDays { get; set;}
 
     }
 }

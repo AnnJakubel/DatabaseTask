@@ -12,7 +12,7 @@ namespace DatabaseTask.Core.Domain
         [Key]
         public Guid EmployeeId { get; set; }
 
-        public string Name { get; set; }
+        public String Name { get; set; }
 
         public JobTitleHistory JobTitleHistory { get; set; }
 
@@ -24,7 +24,7 @@ namespace DatabaseTask.Core.Domain
 
         public string BankAccount { get; set; }
 
-        public DateTime ContractBeginningDate { get; set; }
+        public DateTime ContractStartDate { get; set; }
 
         public DateTime? ContractEndingDate { get; set; }
 
