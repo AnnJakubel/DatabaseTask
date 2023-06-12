@@ -1,6 +1,4 @@
-﻿using Microsoft.Analytics.Interfaces;
-using Microsoft.Analytics.Types.Sql;
-using System;
+﻿using System;
 using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations;
 using System.IO;
@@ -13,7 +11,7 @@ namespace DatabaseTask.Core.Domain
     {
 
         [Key]
-        public Guid PermissionsId { get; set }
+        public Guid PermissionsId { get; set; }
 
         public JobTitleList JobTitleList { get; set; }
 
