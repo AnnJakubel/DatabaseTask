@@ -13,14 +13,16 @@ namespace DatabaseTask.Core.Domain
         [Key]
         public Guid PermissionsId { get; set; }
 
-        public JobTitleList JobTitleList { get; set; }
+        public List<JobTitle> JobTitleList { get; set; }
 
+        //FK
         public Employee Employee { get; set; }
+        public Guid EmployeeId { get; set; }
 
         public String PermissionsDescription { get; set; }
 
-        public DateOnly PermissionsGrantedDate { get; set; }
+        public DateTime PermissionsGrantedDate { get; set; }
 
-        public DateOnly PermissionsExpirationDate { get; set; }
+        public DateTime PermissionsExpirationDate { get; set; }
     }
 }

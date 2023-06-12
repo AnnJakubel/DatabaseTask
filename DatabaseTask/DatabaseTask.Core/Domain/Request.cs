@@ -12,13 +12,19 @@ namespace DatabaseTask.Core.Domain
         [Key]
         public Guid RequestId { get; set; }
 
-        public Employee Employee { get; set; }
 
+        // FK
+        public Employee Employee { get; set; }
+        public Guid EmployeeId { get; set; }
+
+
+        // FK
         public Branch Branch { get; set; }
+        public Guid BranchId { get; set; }
 
         public String RequestDescription { get; set; }
 
-        public DateOnly RequestSubmissionDate { get; set; }
+        public DateTime RequestSubmissionDate { get; set; }
 
         public String RequestStatus { get; set; }
         

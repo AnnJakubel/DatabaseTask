@@ -2,18 +2,16 @@
 
 namespace DatabaseTask.Core.Domain
 {
-    public class RentalItem
+    public class JobTitle
     {
         [Key]
-        public Guid ItemId { get; set; }
+        public Guid JobTitleId { get; set; }
 
-        public String ItemName { get; set; }
-
+        public String Title { get; set; }
 
         // FK
         public Branch Branch { get; set; }
         public Guid BranchId { get; set; }
 
-        public String Description { get; set; }
     }
 }

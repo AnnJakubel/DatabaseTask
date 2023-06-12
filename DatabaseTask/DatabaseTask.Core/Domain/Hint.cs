@@ -12,11 +12,13 @@ namespace DatabaseTask.Core.Domain
         [Key]
         public Guid HintId { get; set; }
 
+        // FK
         public Branch Branch { get; set; }
+        public Guid BranchId { get; set; }
 
         public String HintContent { get; set; }
 
-        public DateOnly HintSubmissionDate { get; set; }
+        public DateTime HintSubmissionDate { get; set; }
 
         public String HintStatus { get; set; }
 

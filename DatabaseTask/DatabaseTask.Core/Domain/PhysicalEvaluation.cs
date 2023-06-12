@@ -12,9 +12,13 @@ namespace DatabaseTask.Core.Domain
         [Key]
         public Guid PhysicalEvalId { get; set; }
 
-        public DateOnly PhysicalEvaluationDate { get; set; }
+        // FK
+        public Employee Employee { get; set; }
+        public Guid EmployeeId { get; set; }
 
-        public DateOnly ExpirationDate { get; set; }
+        public DateTime PhysicalEvaluationDate { get; set; }
+
+        public DateTime ExpirationDate { get; set; }
 
         public String? Limitations { get; set; }
 

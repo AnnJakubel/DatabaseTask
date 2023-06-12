@@ -9,9 +9,9 @@ namespace DatabaseTask.Core.Domain
 
         public String CurrentJobTitle { get; set; }
 
-        public JobTitleList JobTitleList { get; set; }
+        public List<JobTitle> JobTitleList { get; set; }
 
-        public DateOnly JobTitleStartDate { get; set; }
+        public DateTime JobTitleStartDate { get; set; }
 
         public int JobTitleDurationInDays { get; set;}
 

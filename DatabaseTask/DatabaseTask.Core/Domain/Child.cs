@@ -7,10 +7,12 @@ namespace DatabaseTask.Core.Domain
         [Key]
         public Guid ChildId { get; set; }
 
-        public String ChildName { get; set; }
+        public String ChildFullName { get; set; }
         
         public int ChildAgeInYears { get; set; }
 
+        // FK
         public Employee EmployeeAsParent { get; set; }
+        public Guid EmployeeId { get; set; }
     }
 }

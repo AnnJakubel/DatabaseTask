@@ -14,10 +14,13 @@ namespace DatabaseTask.Core.Domain
 
         public List<RentalItem> RentalItems { get; set; }
 
+
+        // FK
         public Employee RentingEmployee { get; set; }
+        public Guid EmployeeId { get; set; }
 
-        public DateOnly RentStartDate { get; set; }
+        public DateTime RentStartDate { get; set; }
 
-        public DateOnly RentEndDate { get; set; }
+        public DateTime RentEndDate { get; set; }
     }
 }

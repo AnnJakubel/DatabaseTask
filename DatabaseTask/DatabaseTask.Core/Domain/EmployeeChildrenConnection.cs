@@ -12,7 +12,10 @@ namespace DatabaseTask.Core.Domain
         [Key]
         public Guid ConnectionId { get; set; }
 
+
+        // FK
         public Employee EmployeeAsParent { get; set; }
+        public Guid EmployeeId { get; set }
 
         public List<Child> Children { get; set; }
     }

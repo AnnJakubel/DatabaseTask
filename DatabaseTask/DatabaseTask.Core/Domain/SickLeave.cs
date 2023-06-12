@@ -12,15 +12,17 @@ namespace DatabaseTask.Core.Domain
         [Key]
         public Guid SickLeaveId { get; set; }
 
+        // FK
         public Employee Employee { get; set; }
+        public Guid EmployeeId { get; set; }
 
         public String SickLeaveType { get; set; }
 
         public int SickLeaveDurationInDays { get; set; }
 
-        public DateOnly SickLeaveStartDate { get; set; }
+        public DateTime SickLeaveStartDate { get; set; }
 
-        public DateOnly SickLeaveEndDate { get; set; }
+        public DateTime SickLeaveEndDate { get; set; }
 
 
 
